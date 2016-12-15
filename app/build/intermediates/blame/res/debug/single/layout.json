@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/activity_user_login.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/activity_user_login.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/activity_bind_qr.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/activity_bind_qr.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/itk_controler_top.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/itk_controler_top.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/itk_my_toast.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/itk_my_toast.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/activity_alarm_message.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/activity_alarm_message.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/activity_device_info.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/activity_device_info.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/itk_dialog_title_content_button.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/itk_dialog_title_content_button.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/title_bar.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/title_bar.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/my_dialog.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/my_dialog.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/itk_activity_play_video.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/itk_activity_play_video.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/activity_device_list.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/activity_device_list.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/itk_play_back_video_control_right.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/itk_play_back_video_control_right.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/activity_word_mode.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/activity_word_mode.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/activity_alarm_settings.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/activity_alarm_settings.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/itk_title_bar.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/itk_title_bar.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/activity_sub_account.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/activity_sub_account.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/activity_video_settings.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/activity_video_settings.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/itk_controler_top_vb.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/itk_controler_top_vb.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/itk_video_record_time.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/itk_video_record_time.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/activity_play_back_list.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/activity_play_back_list.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/alarm_msg_list_layout.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/alarm_msg_list_layout.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/itk_bitrate_select.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/itk_bitrate_select.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/alarm_time_dialog_layout.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/alarm_time_dialog_layout.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/activity_media.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/activity_media.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/row_simple_list_item.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/row_simple_list_item.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/itk_activity_media.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/itk_activity_media.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/activity_play_video.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/activity_play_video.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/itk_play_back_video_control.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/itk_play_back_video_control.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/activity_bind.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/activity_bind.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/itk_controler_bottom.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/itk_controler_bottom.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/device_list_layout.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/device_list_layout.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/layout/activity_bind_sw.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/layout/activity_bind_sw.xml"
+    }
+]

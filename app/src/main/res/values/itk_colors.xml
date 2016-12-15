@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="itk_white">#FFFFFF</color>
+    <color name="itk_red">#FF0000</color>
+    <color name="itk_blue">#00AEFF</color>
+    <color name="itk_black">#000000</color>
+    <color name="itk_light_gray">#D0D0D0</color>
+    <color name="itk_trans_white">#E5FFFFFF</color>
+    <!-- 导航条颜色 -->
+    <color name="itk_navigation">#1677B6</color>
+    <color name="itk_menu_seleced">#FF0079FF</color>
+    <color name="itk_control_back">#EFFFFFFF</color>
+    <color name="itk_shape_line">#ffcccccc</color>
+    <color name="itk_gray">#CCCCCC</color>
+</resources>

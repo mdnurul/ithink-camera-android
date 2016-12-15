@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/libs/fastjson-1.1.37.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="cf6653799afcf3cef4db433bc75286302b43729c">
+        <dex dex="/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/transforms/dex/debug/folders/1000/2/fastjson-1.1.37_dad2ec507c30466cc78414f41977079c4782ec3b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/libs/com.umeng.message.lib_v2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2f96aa0818f265ad61052e652856dd291dc7ce56">
+        <dex dex="/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/transforms/dex/debug/folders/1000/2/com.umeng.message.lib_v2.5.0_1ad8f64b0f43e56dbf1210959390edea12081ee9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ca583e3c53fa2a89f0c1eef3dd6ad0361786413e">
+        <dex dex="/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f55df8d716c97e8c0d2f23e9c088f578685ba18b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/libs/ithink_SDK.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="04bce2bd9ef094062dff3e4725a33c1aa070f337">
+        <dex dex="/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/transforms/dex/debug/folders/1000/2/ithink_SDK_f6d61a8d3306b610d5932c505dd33885bd8608c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="028f6e321d9bd4ca7a184ec35401d771955b0488">
+        <dex dex="/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5021ba899946172cd8df1787c90f5c4b9ff78bcd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bitcanny/Software/Android_Development/Android_SDK/Sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_69d112d10cf88de479879fea7d822d14ebfb9f01/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/libs/core.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bd6b097588487313f7a94914fb89d44238964977">
+        <dex dex="/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/transforms/dex/debug/folders/1000/2/core_b472719ce60633b6f6169464cd536d1986695227/classes.dex" />
+    </item>
+
+</items>

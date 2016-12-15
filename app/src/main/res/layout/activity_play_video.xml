@@ -1,0 +1,426 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/video_chat_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="#000000"
+    tools:context=".PlayVideoActivity" >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/itk_title_bar" />
+
+    <com.ithink.activity.base.CgyScrollView
+        android:id="@+id/my_omnidirectionalScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_layout"
+        android:layout_gravity="top" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1B1B1B" >
+
+            <RelativeLayout
+                android:id="@+id/process_view_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" >
+
+                <ImageView
+                    android:id="@+id/previewImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_video_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:shadowColor="#ff000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="1"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:visibility="visible" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_countDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="@color/itk_red"
+                android:textSize="18sp"
+                android:visibility="visible" >
+            </TextView>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/definitionTip_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/view1"
+                android:layout_alignParentRight="true"
+                android:background="#AA000000"
+                android:padding="5dp"
+                android:text="正在切换到 高清"
+                android:textColor="@color/itk_white"
+                android:textSize="18sp"
+                android:visibility="gone" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#484848"
+                android:textSize="18sp"
+                android:visibility="gone" >
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/proView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/proTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:shadowColor="#ff000000"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </com.ithink.activity.base.CgyScrollView>
+
+    <LinearLayout
+        android:id="@+id/controlView_LL"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/my_omnidirectionalScrollView"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <View
+            android:id="@+id/partingLine_01"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_marginTop="5dp"
+            android:visibility="visible" />
+
+        <!-- 实时视频   声音开关   流畅度按钮    时间显示 -->
+
+        <LinearLayout
+            android:id="@+id/controlBar"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:weightSum="5" >
+
+            <LinearLayout
+                android:id="@+id/voiceSwitch_LL_V"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/voiceImg_V"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/itk_selector_blue_white"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/bitRate_LL_V"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/itk_selector_blue_white"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/bitRateTv_V"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:background="@drawable/itk_selector_white_blue"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textColor="@color/itk_selector_blue_white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/time_v_rt_txt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/partingLine_02"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:visibility="visible" />
+
+        <!-- 实时视频  录制视频按钮  说话按钮  截图按钮 -->
+
+        <LinearLayout
+            android:id="@+id/controlBar_02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="4" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/recordView_rt_img_V"
+                    android:layout_width="fill_parent"
+                    android:layout_height="95dip"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@null"
+                    android:clickable="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/pushTalkMicImg_V"
+                    android:layout_width="fill_parent"
+                    android:layout_height="155dip"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@null"
+                    android:clickable="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/screenshotImg_V"
+                    android:layout_width="fill_parent"
+                    android:layout_height="95dip"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@null"
+                    android:clickable="true"
+                    android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 视频回放  时间刻度尺  视频录制  播放/暂停   截图 -->
+
+    <LinearLayout
+        android:id="@+id/backVideo_LL"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/my_omnidirectionalScrollView"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/time_vb_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/itk_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/vb_line_03"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:visibility="visible" >
+
+            <com.ithink.activity.view.ScalePanel
+                android:id="@+id/scalePanel_V"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#FFFFFF"
+                android:saveEnabled="false" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/vb_line_03"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/vb_controlBar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="4" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/recordView_vb_img_V"
+                    android:layout_width="fill_parent"
+                    android:layout_height="95dip"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@null"
+                    android:clickable="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/playImg_V"
+                    android:layout_width="fill_parent"
+                    android:layout_height="155dip"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@null"
+                    android:clickable="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/screenshotImg_VB_V"
+                    android:layout_width="fill_parent"
+                    android:layout_height="95dip"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@null"
+                    android:clickable="true"
+                    android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

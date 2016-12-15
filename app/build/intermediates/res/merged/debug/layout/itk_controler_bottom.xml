@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="71dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right" >
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="@color/itk_shape_line"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/btnRecord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:src="@drawable/itk_selector_record_landscape_btn" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:background="@color/itk_shape_line"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/pushTalkMicImg_H"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:src="@drawable/itk_selector_talk_landscape_btn" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:background="@color/itk_shape_line"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/btnScreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:src="@drawable/itk_selector_screenshot_landscape_btn" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="@color/itk_shape_line"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

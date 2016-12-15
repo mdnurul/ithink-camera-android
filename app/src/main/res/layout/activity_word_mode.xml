@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WordModeActivity" >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_layout"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/net_mode_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="切换到联网模式" />
+        
+        <Button
+            android:id="@+id/offLine_mode_btn"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="切换到断网模式" />
+    </LinearLayout>
+
+</RelativeLayout>

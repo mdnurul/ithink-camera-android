@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="french_gray">#BFBFBF</color>
+    <!-- 导航条颜色 -->
+    <color name="navigation">#1677B6</color>
+    
+    <!-- 摄像机信息字体颜色 -->
+    <color name="about_tv_color">#B2B2B2</color>
+    
+    <color name="shape_line">#ffcccccc</color>
+    
+    <color name="button_selected">#F2F2F2</color>
+    
+     <color name="delete_device_normal">#F05959</color>
+    <color name="delete_device_pressed">#F27575</color>
+    <color name="delete_device_focused">#FFFF0F</color>
+    <color name="delete_device_enabled_false">#FFBBBB</color>
+    
+    <color name="window_bg">#fff0f3f6</color>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/itk_control_back"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="8" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imgBtn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:background="@null"
+                android:clickable="true"
+                android:src="@drawable/itk_selector_title_back_l" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:background="@color/itk_shape_line"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="4" >
+
+            <TextView
+                android:id="@+id/txtSid"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@null"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:background="@color/itk_shape_line"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/voiceSwitch_LL_H"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/voiceImg_H"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/itk_selector_blue_white"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"
+                android:src="@drawable/itk_selector_voice_off_btn" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:background="@color/itk_shape_line"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/bitRate_LL_H"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/itk_selector_blue_white"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/bitRateTv_H"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/itk_selector_white_blue"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/itk_media_live_bitrate_smooth"
+                android:textColor="@color/itk_selector_blue_white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:background="@color/itk_shape_line"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/full_LL_H"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+             <ImageView
+                android:id="@+id/fullImg_H"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/itk_selector_blue_white"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"
+                android:src="@drawable/itk_selector_p_fullscreen_btn" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

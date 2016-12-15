@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/menu/bind.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/menu/bind.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/menu/bind_qr.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/menu/bind_qr.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/menu/word_mode.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/menu/word_mode.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/menu/alarm_settings.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/menu/alarm_settings.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/menu/device_info.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/menu/device_info.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/menu/video_settings.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/menu/video_settings.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/menu/bind_sw.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/menu/bind_sw.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/menu/sub_account.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/menu/sub_account.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/menu/alarm_message.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/menu/alarm_message.xml"
+    }
+]

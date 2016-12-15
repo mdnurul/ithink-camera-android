@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@color/itk_control_back"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="3" >
+
+    <TextView
+        android:id="@+id/tv_gq"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#00000000"
+        android:text="@string/itk_media_live_bitrate_hd"
+        android:textColor="@color/itk_white"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="@color/itk_shape_line"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" />
+
+    <TextView
+        android:id="@+id/tv_bq"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#00000000"
+        android:text="@string/itk_media_live_bitrate_sd"
+        android:textColor="@color/itk_white"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="@color/itk_shape_line"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" />
+
+    <TextView
+        android:id="@+id/tv_lc"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#00000000"
+        android:text="@string/itk_media_live_bitrate_smooth"
+        android:textColor="@color/itk_white"
+        android:textSize="18sp" />
+
+</LinearLayout>

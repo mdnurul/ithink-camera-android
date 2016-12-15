@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+   <include
+        android:id="@+id/title_layout"
+        layout="@layout/title_bar" />
+
+    <LinearLayout style="@style/leba_bg_layout" >
+
+        <!-- 录像开关 -->
+
+        <LinearLayout
+            android:id="@+id/videoSwitch_LL"
+            style="@style/leba_bg_mid_layout_switch" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="录像"
+                android:textColor="@color/about_tv_color"
+                android:textSize="16.0dip" />
+
+            <TextView
+                android:id="@+id/videoSwitch_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12.0dip"
+                android:background="@drawable/ic_switch_off" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/radio_LL"
+        style="@style/leba_bg_layout" >
+
+        <!-- 录像清晰度 -->
+        <RadioGroup
+            android:id="@+id/qualityRadioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/smooth_Radio"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="流畅"
+                android:textColor="@color/about_tv_color"
+                android:textSize="16.0dip" />
+			<View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="@drawable/leba_shape_line" />
+            <RadioButton
+                android:id="@+id/sd_Radio"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="标清"
+                android:textColor="@color/about_tv_color"
+                android:textSize="16.0dip" />
+			<View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="@drawable/leba_shape_line" />
+            <RadioButton
+                android:id="@+id/hd_Radio"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="高清"
+                android:textColor="@color/about_tv_color"
+                android:textSize="16.0dip" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

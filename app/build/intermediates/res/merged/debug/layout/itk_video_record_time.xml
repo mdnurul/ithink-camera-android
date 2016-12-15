@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/itk_shape_video_record_time"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ImageView 
+        android:id="@+id/record_img"
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/itk_record_hint_image"/>
+    
+    <TextView
+        android:id="@+id/video_record_time_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="5dp"
+        android:shadowColor="#ff000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:text="00:00:00"
+        android:textColor="#EEFFFFFF" />
+
+</LinearLayout>

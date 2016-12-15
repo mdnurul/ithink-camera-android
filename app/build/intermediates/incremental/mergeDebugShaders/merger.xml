@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/debug/shaders"/></dataSet></merger>

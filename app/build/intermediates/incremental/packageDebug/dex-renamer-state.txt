@@ -1,0 +1,7 @@
+#Thu Dec 15 12:04:23 IST 2016
+base.0=/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5021ba899946172cd8df1787c90f5c4b9ff78bcd
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f55df8d716c97e8c0d2f23e9c088f578685ba18b/classes.dex
+base.1=/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f55df8d716c97e8c0d2f23e9c088f578685ba18b
+file.0=/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5021ba899946172cd8df1787c90f5c4b9ff78bcd/classes.dex

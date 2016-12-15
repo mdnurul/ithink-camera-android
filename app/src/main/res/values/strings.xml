@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ITK_SDKDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_user_login">UserLoginActivity</string>
+    <string name="title_activity_device_list">DeviceListActivity</string>
+    <string name="title_activity_bind_sw">BindSWActivity</string>
+    <string name="device_list">Camera list</string>
+    <string name="bind_sw">Sound wave binding</string>
+    <string name="bind_qr">Two-dimensional code binding</string>
+    <string name="bind_sw_send">Send sound waves</string>
+    <string name="no_device">There is no bound camera</string>
+    <string name="back">return</string>
+    <string name="refresh">Refresh</string>
+    <string name="title_activity_bind_qr">BindQRActivity</string>
+    <string name="title_activity_device_info">DeviceInfoActivity</string>
+    <string name="title_activity_alarm_settings">AlarmSettingsActivity</string>
+    <string name="title_activity_video_settings">VideoSettingsActivity</string>
+    <string name="title_activity_sub_account">SubAccountActivity</string>
+    <string name="title_activity_word_mode">WordModeActivity</string>
+    <string name="title_activity_alarm_message">AlarmMessageActivity</string>
+    <string name="title_activity_bind">BindActivity</string>
+
+</resources>

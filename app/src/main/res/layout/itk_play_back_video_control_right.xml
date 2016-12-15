@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom" 
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/recordVideo_VB_H"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:src="@drawable/itk_selector_record_btn" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="top"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/screenshotImg_VB_H"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:adjustViewBounds="true"
+                android:src="@drawable/itk_selector_screenshot_btn" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="@color/itk_shape_line"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

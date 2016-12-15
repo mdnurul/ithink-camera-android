@@ -1,0 +1,306 @@
+[
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_back_white.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_back_white.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_no_listen.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_no_listen.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_indicator_code_lock_point_area_default_holo.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_indicator_code_lock_point_area_default_holo.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_snap_disable.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_snap_disable.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_play_disable.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_play_disable.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_portrait_talk_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_portrait_talk_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_portrait_record_disable.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_portrait_record_disable.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_stoprecord_highlight.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_stoprecord_highlight.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_snap_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_snap_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_portrait_record_highlight.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_portrait_record_highlight.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_talk_off.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_talk_off.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_indicator_code_lock_drag_direction_red_up.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_indicator_code_lock_drag_direction_red_up.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_stoprecord_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_stoprecord_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_pause_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_pause_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/device_img.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/device_img.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_snap_highlight.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_snap_highlight.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_record_hint_image.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_record_hint_image.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_record_highlight.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_record_highlight.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_reconnect_highlight.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_reconnect_highlight.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_info.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_info.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_portrait_pause_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_portrait_pause_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_error.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_error.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_back_black.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_back_black.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_record_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_record_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_talk_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_talk_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_btn_vp_pause.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_btn_vp_pause.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_record_disable.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_record_disable.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_portrait_play_disable.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_portrait_play_disable.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_success.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_success.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_indicator_code_lock_point_area_green_holo.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_indicator_code_lock_point_area_green_holo.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_btn_video_unmuted_pressed.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_btn_video_unmuted_pressed.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_portrait_pause_highlight.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_portrait_pause_highlight.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_portrait_black.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_portrait_black.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_portrait_record_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_portrait_record_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_portrait_play_highlight.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_portrait_play_highlight.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_arrow_left_pressed.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_arrow_left_pressed.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_portrait_stoprecord_highlight.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_portrait_stoprecord_highlight.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_btn_fullscreen.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_btn_fullscreen.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_talk.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_talk.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_switch_off.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/ic_switch_off.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_btn_video_unmuted_disabled.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_btn_video_unmuted_disabled.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_btn_fullscreen_down.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_btn_fullscreen_down.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_play_highlight.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_play_highlight.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_switch_on.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/ic_switch_on.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_indicator_code_lock_drag_direction_green_up.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_indicator_code_lock_drag_direction_green_up.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_portrait_talk_selected.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_portrait_talk_selected.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_indicator_code_lock_point_area_red_holo.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_indicator_code_lock_point_area_red_holo.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_portrait_talk_disable.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_portrait_talk_disable.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_portrait_play_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_portrait_play_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/setting_arrow.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/setting_arrow.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_watermark.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_watermark.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_portrait_talk_highlight.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_portrait_talk_highlight.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_voice_rcd_hint_bg.9.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_voice_rcd_hint_bg.9.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_talk_disable.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_talk_disable.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_black.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_black.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_pause_highlight.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_pause_highlight.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_snap_disable.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_snap_disable.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_snap_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_snap_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_play_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_play_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/arrow_left_pressed.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/arrow_left_pressed.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_portrait_white.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_portrait_white.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_white.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_white.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_btn_video_unmuted_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_btn_video_unmuted_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_talk_selected.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_talk_selected.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_arrow_left_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_arrow_left_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_btn_video_muted_disabled.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_btn_video_muted_disabled.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_listen.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_listen.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_snap_highlight.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_snap_highlight.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_btn_video_muted_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_btn_video_muted_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_reconnect_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_reconnect_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_portrait_stoprecord_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_portrait_stoprecord_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_btn_video_muted_pressed.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_btn_video_muted_pressed.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/arrow_left_normal.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/arrow_left_normal.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_btn_vp_play.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_btn_vp_play.png"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/drawable-hdpi/itk_vp_landscape_talk_highlight.png",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/drawable-hdpi/itk_vp_landscape_talk_highlight.png"
+    }
+]

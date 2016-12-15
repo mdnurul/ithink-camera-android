@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="itk_media_live_time_out">The connection server timed out</string>
+	<string name="itk_dialog_tip">prompt</string>
+	<string name="itk_dialog_back">return</string>
+	<string name="itk_dialog_know">return</string>
+	<string name="itk_dialog_cancel">cancel</string>
+	<string name="itk_dialog_ok">determine</string>
+	<string name="itk_media_live_loading_failed">Pro, video request failed!</string>
+	<string name="itk_media_live_dev_offline">Pro, the camera is not online Oh!</string>
+	<string name="itk_media_video_no_file">Pro, did not find the video file!</string>
+	<string name="itk_dev_list_video_no_sd_card">Your camcorder is not plugged into a memory card</string>
+	<string name="itk_media_live_not_find_dev">Pro, did not find the camera!</string>
+	<string name="itk_media_live_data_error">Video request error</string>
+	<string name="itk_media_init_net_status">Initialization &#x26; # 8230;</string>
+	<string name="itk_media_video_net_error">Pro, the network is not to force Oh!</string>
+	<string name="itk_media_video_play_end">Video playback ends</string>
+	<string name="itk_media_zoom_tip">Double-click the screen to zoom in and out</string>
+	<string name="itk_video_record_failed">Recording time is too short to record</string>
+	<string name="itk_video_record_saved">The video has been saved to the album</string>
+	<string name="itk_normal_network_anomalies">network anomaly</string>
+	<string name="itk_normal_timeout">The network connection timed out</string>
+	<string name="itk_media_live_bitrate_hd">HD</string>
+	<string name="itk_media_live_bitrate_sd">SD</string>
+	<string name="itk_media_live_bitrate_smooth">Smooth</string>
+	<string name="itk_media_live_hear_linking">Connecting &#x26; # 8230;</string>
+	<string name="itk_media_live_close_mic">Close the call</string>
+	<string name="itk_media_live_can_speak" translatable="false">Start the call</string>
+	<string name="itk_media_live_screenshot_succeed">Screenshots successful</string>
+	<string name="itk_media_live_no_sd_card">The phone does not have a memory card</string>
+	<string name="itk_media_live_internet_not_stable">Pro, the network is not stable, the video may Caton Yo!</string>
+	<string name="itk_media_live_open_voice">Turns on audio</string>
+	<string name="itk_media_live_close_voice">Turn off the audio</string>
+	<string name="itk_meida_definition_change_tip">Switching to% s</string>
+	<string name="itk_media_live_action_no_open">This feature is about to open, so stay tuned</string>
+	<string name="itk_media_live_screenshot_failed">The video frame is not detected</string>
+	<string name="itk_media_video_play_start">Start playback</string>
+	<string name="itk_media_video_play_paused">Pause playback</string>
+
+	<string name="itk_normal_wait">Please wait ...</string>
+	<!-- Accessibility description sent when user starts drawing a lock pattern. [CHAR LIMIT=NONE] -->
+	<string name="itk_lockscreen_access_pattern_start">Pattern started</string>
+	<!-- Accessibility description sent when the pattern times out and is cleared. [CHAR LIMIT=NONE] -->
+	<string name="itk_lockscreen_access_pattern_cleared">Pattern cleared</string>
+	<!-- Accessibility description sent when user adds a cell to the pattern. [CHAR LIMIT=NONE] -->
+	<string name="itk_lockscreen_access_pattern_cell_added">Cell added</string>
+	<!-- Accessibility description sent when user completes drawing a pattern. [CHAR LIMIT=NONE] -->
+	<string name="itk_lockscreen_access_pattern_detected">Pattern completed</string>
+</resources>

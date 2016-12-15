@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/color/itk_selector_blue_white.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/color/itk_selector_blue_white.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/color/selector_color_white_gray.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/color/selector_color_white_gray.xml"
+    }
+]

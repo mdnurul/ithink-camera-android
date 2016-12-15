@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/window_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/title_bar" />
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_below="@id/title_layout"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 摄像机名称  备注   LED灯    语音播报  设备报警  录像 -->
+
+            <LinearLayout style="@style/leba_bg_layout" >
+
+					<LinearLayout
+                    android:id="@+id/devName_ll"
+                    style="@style/leba_bg_mid_layout_switch"
+                    android:visibility="visible" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12.0dip"
+                        android:layout_weight="1.0"
+                        android:text="设备名"
+                        android:textColor="@color/about_tv_color"
+                        android:textSize="16.0dip" />
+
+                    <TextView
+                        android:id="@+id/tvDevName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="12.0dip"
+                        android:textColor="#737373" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="12.0dip"
+                        android:src="@drawable/setting_arrow" />
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/leba_shape_line" />
+
+                <LinearLayout
+                    android:id="@+id/devStatus_ll"
+                    style="@style/leba_bg_mid_layout_switch" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12.0dip"
+                        android:layout_weight="1.0"
+                        android:paddingBottom="5dip"
+                        android:text="设备备注"
+                        android:textColor="@color/about_tv_color"
+                        android:textSize="16.0dip" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="12.0dip"
+                        android:src="@drawable/setting_arrow" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/leba_bg_layout" >
+
+                <LinearLayout
+                    android:id="@+id/led_LL"
+                    style="@style/leba_bg_mid_layout_switch" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12.0dip"
+                        android:layout_weight="1.0"
+                        android:text="LED灯"
+                        android:textColor="@color/about_tv_color"
+                        android:textSize="16.0dip" />
+
+                    <TextView
+                        android:id="@+id/led_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="12.0dip"
+                        android:background="@drawable/ic_switch_on" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/led_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/leba_shape_line" />
+
+                <LinearLayout
+                    android:id="@+id/voice_ll"
+                    style="@style/leba_bg_mid_layout_switch" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12.0dip"
+                        android:layout_weight="1.0"
+                        android:text="语音播报"
+                        android:textColor="@color/about_tv_color"
+                        android:textSize="16.0dip" />
+
+                    <TextView
+                        android:id="@+id/voice_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="12.0dip"
+                        android:background="@drawable/ic_switch_off" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/line_gone_0"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/leba_shape_line" />
+
+                <LinearLayout
+                    android:id="@+id/alarm_ll"
+                    style="@style/leba_bg_mid_layout_switch" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12.0dip"
+                        android:layout_weight="1.0"
+                        android:text="报警设置"
+                        android:textColor="@color/about_tv_color"
+                        android:textSize="16.0dip" />
+
+                    <TextView
+                        android:id="@+id/tvAlarm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="12.0dip"
+                        android:textColor="#737373" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="12.0dip"
+                        android:src="@drawable/setting_arrow" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/leba_shape_line"
+                    android:visibility="visible" />
+
+                <!-- 录像开关 -->
+
+                <LinearLayout
+                    android:id="@+id/video_ll"
+                    style="@style/leba_bg_mid_layout_switch"
+                    android:visibility="visible" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12.0dip"
+                        android:layout_weight="1.0"
+                        android:text="录像"
+                        android:textColor="@color/about_tv_color"
+                        android:textSize="16.0dip" />
+
+                    <TextView
+                        android:id="@+id/videoStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="12.0dip"
+                        android:textColor="#737373" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="12.0dip"
+                        android:src="@drawable/setting_arrow" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 摄像锁  管理子账号 -->
+
+            <LinearLayout
+                android:id="@+id/init_ll"
+                style="@style/leba_bg_layout" >
+
+                <LinearLayout
+                    android:id="@+id/subAccount_ll"
+                    style="@style/leba_bg_mid_layout_switch" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12.0dip"
+                        android:layout_weight="1.0"
+                        android:text="管理子账号"
+                        android:textColor="@color/about_tv_color"
+                        android:textSize="16.0dip" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="12.0dip"
+                        android:src="@drawable/setting_arrow" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 工作模式 -->
+
+            <LinearLayout style="@style/leba_bg_layout" >
+
+                <LinearLayout
+                    android:id="@+id/workModel_ll"
+                    style="@style/leba_bg_mid_layout_switch" >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12.0dip"
+                        android:layout_weight="1.0"
+                        android:text="工作模式"
+                        android:textColor="@color/about_tv_color"
+                        android:textSize="16.0dip" />
+
+                    <TextView
+                        android:id="@+id/workMode_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="12.0dip"
+                        android:textColor="#737373" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="12.0dip"
+                        android:src="@drawable/setting_arrow" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/dev_info_delete_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_delete_device_btn"
+                android:padding="8dp"
+                android:text="删除设备"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

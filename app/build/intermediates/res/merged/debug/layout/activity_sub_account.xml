@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeviceListActivity" >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/title_bar" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_layout"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dip"
+        android:gravity="center" />
+
+    <ListView
+        android:id="@+id/userListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/tip_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/no_device"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

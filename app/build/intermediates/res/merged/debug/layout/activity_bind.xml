@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BindActivity" >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_layout"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/wifi_name_edt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter a Wi-Fi name" />
+
+        <EditText
+            android:id="@+id/wifi_pass_edt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Wi-Fi password" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/main_sw_bind_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sound wave binding" />
+
+        <Button
+            android:id="@+id/main_qr_bind_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Two-dimensional code binding" />
+    </LinearLayout>
+
+</RelativeLayout>

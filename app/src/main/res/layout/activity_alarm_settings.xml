@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/window_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/title_bar" />
+    
+    <LinearLayout style="@style/leba_bg_layout"
+        android:layout_below="@id/title_layout" >
+		<!-- 报警开关 -->
+        <LinearLayout
+            android:id="@+id/alarm_ll"
+            style="@style/leba_bg_mid_layout_switch" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="报警开关"
+                android:textColor="@color/about_tv_color"
+                android:textSize="16.0dip" />
+
+            <TextView
+                android:id="@+id/alarm_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12.0dip"
+                android:background="@drawable/ic_switch_off" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line_gone_0"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="@drawable/leba_shape_line" />
+		<!-- 摄像头报警声音开关 -->
+        <LinearLayout
+            android:id="@+id/alarmSound_ll"
+            style="@style/leba_bg_mid_layout_switch" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="摄像机报警响铃"
+                android:textColor="@color/about_tv_color"
+                android:textSize="16.0dip" />
+
+            <TextView
+                android:id="@+id/alarmSound_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12.0dip"
+                android:background="@drawable/ic_switch_off" />
+        </LinearLayout>
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:visibility="gone"
+            android:background="@drawable/leba_shape_line" />
+        
+        <View
+            android:id="@+id/line_gone_1"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="@drawable/leba_shape_line" />
+        
+        <!-- 摄像头报警时间设置 -->
+        <LinearLayout
+            android:id="@+id/alarmTime_ll"
+            style="@style/leba_bg_mid_layout_switch" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:layout_weight="1.0"
+                android:text="报警时间段"
+                android:textColor="@color/about_tv_color"
+                android:textSize="16.0dip" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12.0dip"
+                android:text="10:00-21:00"
+                android:textColor="#737373" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="12.0dip"
+                android:src="@drawable/setting_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

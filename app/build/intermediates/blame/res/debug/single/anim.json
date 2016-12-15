@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/anim/itk_on_screen_hint_enter.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/anim/itk_on_screen_hint_enter.xml"
+    },
+    {
+        "merged": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/build/intermediates/res/merged/debug/anim/itk_on_screen_hint_exit.xml",
+        "source": "/home/bitcanny/Android_Studio_Projects/IthinkCamera/app/src/main/res/anim/itk_on_screen_hint_exit.xml"
+    }
+]

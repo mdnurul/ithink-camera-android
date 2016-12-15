@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/itk_toast_border"
+    android:minWidth="120dip"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="20dip"
+        android:src="@drawable/itk_error" />
+
+    <ProgressBar
+        android:id="@+id/pro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="20dip"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

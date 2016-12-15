@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/itk_vp_portrait_play_highlight" android:state_pressed="true">
+        
+    </item>
+
+    <item android:drawable="@drawable/itk_vp_portrait_play_normal" android:state_enabled="true">
+        
+    </item>
+    
+    <item android:drawable="@drawable/itk_vp_portrait_play_disable" android:state_enabled="false">
+        
+    </item>
+</selector>

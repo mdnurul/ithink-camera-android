@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="about_tv_color">#B2B2B2</color>
+    <color name="button_selected">#F2F2F2</color>
+    <color name="delete_device_enabled_false">#FFBBBB</color>
+    <color name="delete_device_focused">#FFFF0F</color>
+    <color name="delete_device_normal">#F05959</color>
+    <color name="delete_device_pressed">#F27575</color>
+    <color name="french_gray">#BFBFBF</color>
+    <color name="itk_black">#000000</color>
+    <color name="itk_blue">#00AEFF</color>
+    <color name="itk_control_back">#EFFFFFFF</color>
+    <color name="itk_gray">#CCCCCC</color>
+    <color name="itk_light_gray">#D0D0D0</color>
+    <color name="itk_menu_seleced">#FF0079FF</color>
+    <color name="itk_navigation">#1677B6</color>
+    <color name="itk_red">#FF0000</color>
+    <color name="itk_shape_line">#ffcccccc</color>
+    <color name="itk_trans_white">#E5FFFFFF</color>
+    <color name="itk_white">#FFFFFF</color>
+    <color name="navigation">#1677B6</color>
+    <color name="shape_line">#ffcccccc</color>
+    <color name="white">#FFFFFF</color>
+    <color name="window_bg">#fff0f3f6</color>
+    <declare-styleable name="LockPatternView"><attr format="string" name="aspect"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <item name="ITK_BACKVIDEO_FILE_EMPTY" type="id"/>
+    <item name="ITK_BACKVIDEO_TIME" type="id"/>
+    <item name="ITK_CHECK_NET_FINISH" type="id"/>
+    <item name="ITK_HIDETIPWINDOW" type="id"/>
+    <item name="ITK_HIDE_CONTROLWINDOW" type="id"/>
+    <item name="ITK_INIT_MEIDA_AUDIO" type="id"/>
+    <item name="ITK_MEDIA_BACKVIDEO_END" type="id"/>
+    <item name="ITK_MEDIA_CONNECT_CAMERA" type="id"/>
+    <item name="ITK_MEDIA_CONNECT_DD" type="id"/>
+    <item name="ITK_MEDIA_CONNECT_DKYS" type="id"/>
+    <item name="ITK_MEDIA_CONNECT_NWZL" type="id"/>
+    <item name="ITK_MEDIA_CONNECT_YW" type="id"/>
+    <item name="ITK_MEDIA_CONNECT_ZZ" type="id"/>
+    <item name="ITK_MEDIA_COUNTDOWN" type="id"/>
+    <item name="ITK_MEDIA_COUNTDOWN_EXIT" type="id"/>
+    <item name="ITK_MEDIA_COUNTDOWN_UPDATE_TIME" type="id"/>
+    <item name="ITK_MEDIA_ERROR" type="id"/>
+    <item name="ITK_MEDIA_LOADING_DATA" type="id"/>
+    <item name="ITK_MEDIA_NET_CHECK_START" type="id"/>
+    <item name="ITK_MEDIA_NODEV" type="id"/>
+    <item name="ITK_MEDIA_NOT_ONLINE" type="id"/>
+    <item name="ITK_MEDIA_NO_SDCARD" type="id"/>
+    <item name="ITK_MEDIA_SEND_SCROLL" type="id"/>
+    <item name="ITK_MEDIA_SHOW_CONTROL_BAR" type="id"/>
+    <item name="ITK_MEDIA_START_RENDER" type="id"/>
+    <item name="ITK_MEDIA_TIME" type="id"/>
+    <item name="ITK_MEDIA_UPDATE_TIME" type="id"/>
+    <item name="ITK_MEDIA_ZOOM_IN_OR_OUT" type="id"/>
+    <item name="ITK_MEDIA_ZOOM_TIP" type="id"/>
+    <item name="ITK_PLAYVOICE_PROGRESS" type="id"/>
+    <item name="ITK_PROGRESS_WALK" type="id"/>
+    <item name="ITK_REQUEST_DOWN_FINISH" type="id"/>
+    <item name="ITK_REQUEST_DOWN_PROGRESS" type="id"/>
+    <item name="ITK_SAVE_MP4_OK" type="id"/>
+    <item name="ITK_SCREENSHOT_SUCCESS" type="id"/>
+    <item name="ITK_VIDEOBITRATE_OK" type="id"/>
+    <item name="ITK_VIDEO_UPDATE_RECORD_TIME" type="id"/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">ITK_SDKDemo</string>
+    <string name="back">return</string>
+    <string name="bind_qr">Two-dimensional code binding</string>
+    <string name="bind_sw">Sound wave binding</string>
+    <string name="bind_sw_send">Send sound waves</string>
+    <string name="device_list">Camera list</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="itk_dev_list_video_no_sd_card">Your camcorder is not plugged into a memory card</string>
+    <string name="itk_dialog_back">return</string>
+    <string name="itk_dialog_cancel">cancel</string>
+    <string name="itk_dialog_know">return</string>
+    <string name="itk_dialog_ok">determine</string>
+    <string name="itk_dialog_tip">prompt</string>
+    <string name="itk_lockscreen_access_pattern_cell_added">Cell added</string>
+    <string name="itk_lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <string name="itk_lockscreen_access_pattern_detected">Pattern completed</string>
+    <string name="itk_lockscreen_access_pattern_start">Pattern started</string>
+    <string name="itk_media_init_net_status">Initialization &amp; # 8230;</string>
+    <string name="itk_media_live_action_no_open">This feature is about to open, so stay tuned</string>
+    <string name="itk_media_live_bitrate_hd">HD</string>
+    <string name="itk_media_live_bitrate_sd">SD</string>
+    <string name="itk_media_live_bitrate_smooth">Smooth</string>
+    <string name="itk_media_live_can_speak" translatable="false">Start the call</string>
+    <string name="itk_media_live_close_mic">Close the call</string>
+    <string name="itk_media_live_close_voice">Turn off the audio</string>
+    <string name="itk_media_live_data_error">Video request error</string>
+    <string name="itk_media_live_dev_offline">Pro, the camera is not online Oh!</string>
+    <string name="itk_media_live_hear_linking">Connecting &amp; # 8230;</string>
+    <string name="itk_media_live_internet_not_stable">Pro, the network is not stable, the video may Caton Yo!</string>
+    <string name="itk_media_live_loading_failed">Pro, video request failed!</string>
+    <string name="itk_media_live_no_sd_card">The phone does not have a memory card</string>
+    <string name="itk_media_live_not_find_dev">Pro, did not find the camera!</string>
+    <string name="itk_media_live_open_voice">Turns on audio</string>
+    <string name="itk_media_live_screenshot_failed">The video frame is not detected</string>
+    <string name="itk_media_live_screenshot_succeed">Screenshots successful</string>
+    <string name="itk_media_live_time_out">The connection server timed out</string>
+    <string name="itk_media_video_net_error">Pro, the network is not to force Oh!</string>
+    <string name="itk_media_video_no_file">Pro, did not find the video file!</string>
+    <string name="itk_media_video_play_end">Video playback ends</string>
+    <string name="itk_media_video_play_paused">Pause playback</string>
+    <string name="itk_media_video_play_start">Start playback</string>
+    <string name="itk_media_zoom_tip">Double-click the screen to zoom in and out</string>
+    <string name="itk_meida_definition_change_tip">Switching to% s</string>
+    <string name="itk_normal_network_anomalies">network anomaly</string>
+    <string name="itk_normal_timeout">The network connection timed out</string>
+    <string name="itk_normal_wait">Please wait ...</string>
+    <string name="itk_video_record_failed">Recording time is too short to record</string>
+    <string name="itk_video_record_saved">The video has been saved to the album</string>
+    <string name="no_device">There is no bound camera</string>
+    <string name="refresh">Refresh</string>
+    <string name="title_activity_alarm_message">AlarmMessageActivity</string>
+    <string name="title_activity_alarm_settings">AlarmSettingsActivity</string>
+    <string name="title_activity_bind">BindActivity</string>
+    <string name="title_activity_bind_qr">BindQRActivity</string>
+    <string name="title_activity_bind_sw">BindSWActivity</string>
+    <string name="title_activity_device_info">DeviceInfoActivity</string>
+    <string name="title_activity_device_list">DeviceListActivity</string>
+    <string name="title_activity_sub_account">SubAccountActivity</string>
+    <string name="title_activity_user_login">UserLoginActivity</string>
+    <string name="title_activity_video_settings">VideoSettingsActivity</string>
+    <string name="title_activity_word_mode">WordModeActivity</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="leba_bg_base_layout_switch">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingBottom">12.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="leba_bg_layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/leba_shape_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginTop">15.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+    </style>
+    <style name="leba_bg_mid_layout_switch" parent="@style/leba_bg_base_layout_switch">
+        <item name="android:background">@drawable/leba_bg_mid_selector</item>
+    </style>
+</resources>

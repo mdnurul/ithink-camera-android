@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlarmMessageActivity" >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/title_bar" />
+    
+    <ListView
+        android:id="@+id/alarmMsgListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_layout"
+        android:text="@string/hello_world" />
+
+    <TextView
+        
+        android:id="@+id/tip_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="没有报警消息"
+        android:textSize="20sp"
+        android:visibility="gone" />
+    
+</RelativeLayout>

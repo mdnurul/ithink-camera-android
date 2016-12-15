@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ithink.demo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+
+    <!-- 允许应用使用网络 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 允许获取网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 获取网卡信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 允许实用麦克风录制 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 读写SDCARD -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 以下是添加报警消息推送   必选   权限 -->
+    <!-- 允许开机自动启 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- 获取手机状态信息 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 【必选】用以设置前台是否显示通知 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ithink.demo.UserLoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ithink.demo.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.ithink.demo.DeviceListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ithink.demo.BindSWActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ithink.demo.BindQRActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- ###################注册SDK使用的Activity===start====###################### -->
+        <activity
+            android:name="com.ithink.camera.MediaActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ithink.camera.ControlActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ithink.camera.PlayBackVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- ###################注册SDK使用的Activity====end===###################### -->
+        <activity
+            android:name="com.ithink.demo.DeviceInfoActivity"
+            android:label="@string/title_activity_device_info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ithink.demo.AlarmSettingsActivity"
+            android:label="@string/title_activity_alarm_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ithink.demo.VideoSettingsActivity"
+            android:label="@string/title_activity_video_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ithink.demo.SubAccountActivity"
+            android:label="@string/title_activity_sub_account"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ithink.demo.WordModeActivity"
+            android:label="@string/title_activity_word_mode"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ithink.demo.PlayBackListActivity"
+            android:label="@string/title_activity_word_mode"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.ithink.demo.AlarmMessageActivity"
+            android:label="@string/title_activity_alarm_message"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 监听通知点击或者忽略处理的广播 -->
+        <receiver
+            android:name="com.umeng.message.NotificationProxyBroadcastReceiver"
+            android:exported="false" >
+        </receiver>
+
+        <!-- 监听开机运行、网络连接变化、卸载的广播 -->
+        <receiver
+            android:name="com.umeng.message.SystemReceiver"
+            android:process=":push" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 监听消息到达的广播 -->
+        <receiver
+            android:name="com.umeng.message.MessageReceiver"
+            android:exported="false"
+            android:process=":push" >
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 监听宿主选举的广播 -->
+        <receiver
+            android:name="com.umeng.message.ElectionReceiver"
+            android:process=":push" >
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.ELECTION_RESULT_V4" />
+
+                <category android:name="umeng" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 监听注册的广播 -->
+        <!-- 【应用包名】字符串需要替换成本应用的应用包名 -->
+        <receiver
+            android:name="com.umeng.message.RegistrationReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.ithink.demo.intent.action.COMMAND" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.umeng.message.UmengMessageBootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.umeng.message.UmengService"
+            android:exported="true"
+            android:label="PushService"
+            android:process=":push" >
+            <intent-filter>
+                <action android:name="com.ithink.demo.intent.action.START" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.ithink.demo.intent.action.COCKROACH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.PING_V4" />
+
+                <category android:name="umeng" />
+            </intent-filter>
+        </service>
+
+        <!-- Umeng的消息接收服务 -->
+        <service
+            android:name="com.umeng.message.UmengIntentService"
+            android:process=":push" />
+
+        <!-- Umeng的消息路由服务 -->
+        <service
+            android:name="com.umeng.message.UmengMessageIntentReceiverService"
+            android:exported="true"
+            android:process=":push" >
+            <intent-filter>
+                <action android:name="org.android.agoo.client.MessageReceiverService" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.android.agoo.client.ElectionReceiverService" />
+            </intent-filter>
+        </service>
+
+        <!-- v2.4.1添加的Service，Umeng的消息接收后的处理服务 -->
+        <service
+            android:name="com.umeng.message.UmengMessageCallbackHandlerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.umeng.messge.registercallback.action" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.umeng.message.unregistercallback.action" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.umeng.message.message.handler.action" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.umeng.message.autoupdate.handler.action" />
+            </intent-filter>
+        </service>
+
+        <!-- V1.3.0添加的service，负责下载通知的资源 -->
+        <service android:name="com.umeng.message.UmengDownloadResourceService" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="526684d156240bc29e044ba8" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="5e31012fa411594ca71922d10165e3d5" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="ITK_SDK" >
+        </meta-data>
+
+        <activity
+            android:name="com.ithink.demo.BindActivity"
+            android:label="@string/title_activity_bind" >
+        </activity>
+    </application>
+
+</manifest>
